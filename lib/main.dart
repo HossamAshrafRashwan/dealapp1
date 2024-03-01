@@ -1,5 +1,6 @@
 import 'package:dealapp1/Theme/theme.dart';
-import 'package:dealapp1/view/register.dart';
+import 'package:dealapp1/view/onBoarding/onBoarding_screen.dart';
+import 'package:dealapp1/view/splash_Screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Deal',
       theme: lightMode,
-      home: const RegisterView(),
+      home: const OnBoardingScreen(),
     );
   }
 }
