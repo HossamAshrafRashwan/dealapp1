@@ -14,6 +14,19 @@ ThemeData lightMode = ThemeData(
     secondary: Color(0xffCDD9F3),
   ),
 
+  inputDecorationTheme: InputDecorationTheme(
+    labelStyle: TextStyle(color: Color(0xffb4b4b4)),
+    floatingLabelStyle: TextStyle(color: Color(0xff0543C1)),
+    border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+    enabledBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(10),
+      borderSide: BorderSide(color: Color(0xffb4b4b4)),
+    ),
+    errorBorder: OutlineInputBorder(
+      borderSide: BorderSide(color: Colors.red),
+    ),
+  ),
+
   textTheme: const TextTheme(
     displayLarge: TextStyle(
       fontWeight: FontWeight.bold,

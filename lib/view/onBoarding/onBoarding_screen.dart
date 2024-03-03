@@ -1,4 +1,4 @@
-import 'package:dealapp1/view/registration/login.dart';
+import 'package:dealapp1/view/registration/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -53,10 +53,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 children: [
                   TextButton(
                     onPressed: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const LoginView(),
+                          builder: (context) => const RegisterView(),
                         ),
                       );
                     },
