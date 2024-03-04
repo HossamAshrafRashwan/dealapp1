@@ -25,7 +25,6 @@ class RegisterView extends StatelessWidget {
               textInputAction: TextInputAction.next,
             ),
             MyTextFormField(
-              keyBoardType: TextInputType.number,
               labelText: 'password',
               textInputAction: TextInputAction.next,
               obscureText: true,
@@ -35,7 +34,6 @@ class RegisterView extends StatelessWidget {
               ),
             ),
             MyTextFormField(
-              keyBoardType: TextInputType.number,
               labelText: 'confirm password',
               textInputAction: TextInputAction.done,
               obscureText: true,
@@ -44,6 +42,7 @@ class RegisterView extends StatelessWidget {
                 onPressed: () {},
               ),
             ),
+            IconButton(onPressed: () {}, icon: Icon(Icons.check))
           ],
         ),
       ),

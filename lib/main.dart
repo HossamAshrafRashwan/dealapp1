@@ -1,7 +1,8 @@
 import 'package:dealapp1/Theme/theme.dart';
-import 'package:dealapp1/view/onBoarding/onBoarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'view/splash_Screen/splash_screen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Deal',
       theme: lightMode,
-      home: const OnBoardingScreen(),
+      home: const SplashScreen(),
     );
   }
 }
